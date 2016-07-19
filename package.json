@@ -4,7 +4,7 @@
   "description": "Test application for hurixDigital using react and redux",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js  --recursive",
+    "test": "mocha --compilers js:babel-core/register  --recursive",
     "test:watch": "npm run test -- --watch",
     "prestart": "npm install",
     "build": "webpack",
@@ -32,6 +32,7 @@
     "babel-preset-stage-2": "^6.11.0",
     "chai": "^3.5.0",
     "chai-immutable": "^1.6.0",
+    "expect": "^1.20.2",
     "mocha": "^2.5.3",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
