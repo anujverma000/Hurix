@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    color: #ffffff;
+    background-color: rgb(0, 188, 212);
+    padding: 1px 50px;
+}
+.container{
+    margin-top: 30px;
+}
+.app-panel{
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 3%;
+}
+.panel h1{
+    color: rgb(0, 188, 212);
+}
+.panel{
+    border: 1px solid #dddddd;
+    margin: 10px;
+    padding: 20px;
+}
+
+.panel1{
+    width: 85%;
+    height: 150px;
+    float: left;
+}
+input, select{
+    width: 60%;
+    font-size: 20px;
+}
+.panel2 {
+    width: 85%;
+    height: 350px;
+    float: left;
+}
+
+.panel3{
+    width: 60%;
+    height: 562px;
+    float: right;
+    margin-right: 3%;
+}
+.label{
+    display: inline-block;
+    width: 100px;
+}
+footer{
+    margin: 30px;
+    text-align: right;
+    color: #999999;
+}

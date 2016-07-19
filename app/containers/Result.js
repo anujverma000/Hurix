@@ -6,7 +6,7 @@ const ResultContainer = (props) =>{
   let t = props.distance.time
   let f = props.distance.frequency
   return(
-    <div style={{width:200+'px', height: 500+'px', backgroundColor: 'rgb('+props.color.red+','+ props.color.green+','+ props.color.blue+')'}}>
+    <div className="panel panel3" style={{backgroundColor: 'rgb('+props.color.red+','+ props.color.green+','+ props.color.blue+')'}}>
       distance = {(u*t)  + (0.5*f*t*t)}
     </div>
   )
